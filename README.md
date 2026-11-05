@@ -14,9 +14,9 @@ One small script. You run it here, the tab opens there.
 ## Install
 
 ```bash
-git clone <your-repo-url> ~/src/sendtube
-ln -s ~/src/sendtube/sendtube ~/bin/sendtube
-chmod +x ~/src/sendtube/sendtube
+git clone <your-repo-url> ~/src/throwtube
+ln -s ~/src/throwtube/throwtube ~/bin/throwtube
+chmod +x ~/src/throwtube/throwtube
 ```
 
 If `~/bin` isn't on your `PATH`, either add it or drop the symlink and call the script by full path.
@@ -41,11 +41,11 @@ A `~/.ssh/config` alias works too ? set `HOST=tvbox` and define the host, user, 
 ## Usage
 
 ```bash
-sendtube 'https://youtu.be/dQw4w9WgXcQ'   # open a URL
-sendtube                                   # open the clipboard contents
+throwtube 'https://youtu.be/dQw4w9WgXcQ'   # open a URL
+throwtube                                   # open the clipboard contents
 ```
 
-URLs missing a scheme get `https://` prepended, so `sendtube youtu.be/xyz` works.
+URLs missing a scheme get `https://` prepended, so `throwtube youtu.be/xyz` works.
 
 ## How it works
 
